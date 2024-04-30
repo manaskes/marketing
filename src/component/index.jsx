@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './index.css';
-import vedio from './vedio/bg.mp4';
+import vedio from './vedio/final.mp4';
 
 const pages = ['/', '/about','/advertiser','/publisher', '/login', '/contact'];
 
