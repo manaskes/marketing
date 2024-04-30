@@ -53,7 +53,7 @@ function Structure({ sidebar, rightSidebar, children }) {
         <div ref={containerRef} className="flex h-screen relative">
             {/* Video Element */}
             <video autoPlay muted loop className="video-background">
-                <source src={vedio} type="video/mp4" />
+                <source src='https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4' type="video/mp4" />
             </video>
                {/* Transparent black overlay */}
                <div className="absolute inset-0 bg-black opacity-50"></div>
