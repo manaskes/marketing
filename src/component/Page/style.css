@@ -1,0 +1,22 @@
+/* Login.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    /* height: 100vh; Set the container height to the viewport height */
+}
+.input-field {
+    width: 300px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    /* text-align: center; Center the text in input fields */
+    margin: 0 auto; /* Center the input fields */
+}
+
+.input-field::placeholder {
+    color: rgb(159, 159, 159);
+}

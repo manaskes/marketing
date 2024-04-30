@@ -4,8 +4,11 @@ import Structure from "./component"; // Ensure the path is correct
 import Sidebar from "./component/Layout/Sidebar";
 import RightSideBar from "./component/Layout/RightSideBar";
 import LoginPage from "./component/Page/LoginPage";
-import Documentation from "./component/Page/Documentation";
 import FirstDocument from "./component/Page/FirstDocument";
+import AboutPage from "./component/Page/AboutPage";
+import ContactPage from "./component/Page/ContactPage";
+import Advertiser from "./component/Page/Advertiser";
+import Publisher from "./component/Page/Publisher";
 
 function App() {
   return (
@@ -13,8 +16,11 @@ function App() {
       <Structure sidebar={<Sidebar />} rightSidebar={<RightSideBar />}>
         <Routes>
           <Route path="/" element={<FirstDocument />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/advertiser" element={<Advertiser />} />
+          <Route path="/publisher" element={<Publisher />} />
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/documentation" element={<Documentation />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </Structure>
     </Router>
