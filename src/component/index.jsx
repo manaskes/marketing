@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './index.css';
 import vedio from './vedio/final.mp4';
 
-const pages = ['/', '/about','/advertiser','/publisher', '/login', '/contact'];
+const pages = ['/', '/about', '/advertiser', '/publisher', '/login', '/contact'];
 
 function Structure({ sidebar, rightSidebar, children }) {
     const navigate = useNavigate();
@@ -53,10 +53,14 @@ function Structure({ sidebar, rightSidebar, children }) {
         <div ref={containerRef} className="flex h-screen relative">
             {/* Video Element */}
             <video autoPlay muted loop className="video-background">
-                <source src='https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4' type="video/mp4" />
+                {/* <source src='https://media.istockphoto.com/id/1146358052/video/cyber-security-cloud-computing-big-data-online-storage-and-protection-technology-network-and.mp4?s=mp4-640x640-is&k=20&c=F3qfzHy8w4i7T3FHU3xQZ09JFOkqwWEJ0eT7X_cHbXA=' type="video/mp4" /> */}
+                <source src='https://media.istockphoto.com/id/1159495270/video/digital-interaction-with-reality-social-media-futuristic-concept.mp4?s=mp4-640x640-is&k=20&c=VwDh8xMKoP2gEsS0e8xVvbHhv3cLX0dOSgz-KtKhnZI=' type="video/mp4" />
             </video>
-               {/* Transparent black overlay */}
-               <div className="absolute inset-0 bg-black opacity-50"></div>
+            {/* Transparent black overlay */}
+            <div className="absolute inset-0 bg-black opacity-50 flex items-center justify-center">
+                <div className="bg-black opacity-50 backdrop-filter blur-xl w-15/15 h-15/15"></div>
+            </div>
+
             <div className="flex-1 flex flex-col overflow-hidden">
                 <div className="flex h-full">
                     <nav className="flex w-100 h-full">
