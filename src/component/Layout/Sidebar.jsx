@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { MdHome, MdInfo, MdContactMail, MdPublish, MdLogin } from 'react-icons/md';
-
+import logo from '../img/jaunt_app.png'
 const pages = [
   { path: '/', label: 'Home', Icon: MdHome },
   { path: '/about', label: 'About', Icon: MdInfo },
@@ -22,14 +22,12 @@ function Sidebar() {
   return (
     <div className='w-60 z-10'>
       <div className="flex flex-wrap mt-2 ml-12">
-        <div className="w-1/2">
+        <div className="w-10/10">
           <img
-            src="https://randomuser.me/api/portraits/women/27.jpg"
+            src={logo}
+            // height={250}
             className="mx-auto w-20 h-20 rounded-full"
           />
-        </div>
-        <div className="w-1/2">
-          <span className="font-semibold text-white">JAUNT APP MEDIA</span>
         </div>
       </div>
       <ul className="mt-8 ml-8">
@@ -45,7 +43,7 @@ function Sidebar() {
         ))}
       </ul>
       <div className="mt-8 absolute bottom-5 ml-12 text-white">
-        Developed by <span className="font-bold text-red-500">User</span>
+        Developed by <span className="font-bold text-red-500">JauntApp</span>
       </div>
     </div>
   );

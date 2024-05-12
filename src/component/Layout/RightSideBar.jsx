@@ -115,6 +115,7 @@ const RightSideBar = () => {
           /> */}
         </div>
         {/* Second Lottie animation */}
+        <a href="https://www.linkedin.com/company/jauntappmedia">
         <div  style={{ cursor: 'pointer' }}>
           <Lottie
             animationData={linkidin}
@@ -122,6 +123,7 @@ const RightSideBar = () => {
             style={{ width: '10rem', height: '100px' }}
           />
         </div>
+        </a>
       </div>
     </div>
   );
