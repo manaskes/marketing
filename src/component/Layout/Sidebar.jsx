@@ -43,7 +43,7 @@ function Sidebar() {
         ))}
       </ul>
       <div className="mt-8 absolute bottom-5 ml-12 text-white">
-        Developed by <span className="font-bold text-red-500">JauntApp</span>
+        Developed by <span className="font-bold text-yellow-600">JauntApp</span>
       </div>
     </div>
   );

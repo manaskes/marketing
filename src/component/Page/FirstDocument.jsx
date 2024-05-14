@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/jauntlogo1.png'; // Replace with the path to your logo image
+import logo from '../img/JJM.png'; // Replace with the path to your logo image
 import Lottie from "lottie-react";
 import scrolldown from '../LottieData/Scrolldown1.json'
 import getstarted from '../LottieData/Get Started Now.json'
@@ -11,10 +11,10 @@ const FirstDocument = () => {
       <div className="relative flex w-full max-w-[48rem] flex-row text-white "> {/* Added padding */}
         {/* Content container on the left */}
         <div className="flex flex-col top-0 mr-30 ">
-          <h2 className="text-6xl font-bold leading-snug tracking-normal antialiased ">Jaunt App Media</h2> {/* Header */}
+          <h2 className="text-6xl font-bold leading-snug tracking-normal antialiased ">Jaunt App <br/>Media</h2> {/* Header */}
           <div className="mb-4 border-b-4 bg-white"></div>
           <p className="text-lg font-bold leading-relaxed "> {/* Paragraph */}
-          WELCOME To Jaunt App Media!
+          WELCOME To Jaunt App  Media!
           </p>
           {/* Get started button */}
           <a href="#" className="inline-block flex items-center">
@@ -29,8 +29,8 @@ const FirstDocument = () => {
           </a>
         </div>
         {/* Logo container on the right */}
-        <div className="flex items-start"> {/* Align items to the start (top) of the container */}
-          <img src={logo} alt="Logo" /> {/* Your logo */}
+        <div className="flex items-center ml-32"> {/* Align items to the start (top) of the container */}
+          <img src={logo} alt="Logo" height={110} width={140}/> {/* Your logo */}
         </div>
       </div>
       {/* Scroll down indicator */}
