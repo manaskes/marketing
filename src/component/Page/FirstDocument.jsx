@@ -30,7 +30,7 @@ const FirstDocument = () => {
         </div>
         {/* Logo container on the right */}
         <div className="flex items-center ml-32"> {/* Align items to the start (top) of the container */}
-          <img src={logo} alt="Logo" height={110} width={140}/> {/* Your logo */}
+          <img src={logo} alt="Logo" className='h-32 w-22'/> {/* Your logo */}
         </div>
       </div>
       {/* Scroll down indicator */}

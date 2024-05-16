@@ -9,9 +9,8 @@ import AboutPage from "./component/Page/AboutPage";
 import ContactPage from "./component/Page/ContactPage";
 import Advertiser from "./component/Page/Advertiser";
 import Publisher from "./component/Page/Publisher";
-import Lottie from "lottie-react";
-import loader from './component/LottieData/loading.json';
 import './App.css'; // assuming your styles are defined here
+import background from '../src/component/img/background.gif'
 
 function App() {
   const [isLoading, setLoading] = useState(true);
@@ -26,7 +25,7 @@ function App() {
   if (isLoading) {
     return (
       <div className="loader-container">
-        <Lottie animationData={loader} loop={true} style={{ width: '100%', height: '100%' }} />
+        <img src={background} alt="Loading..." />
       </div>
     );
   }
