@@ -18,8 +18,7 @@ const AboutPage = () => {
                     <h1 className="text-6xl font-bold mb-2">About Us</h1>
                     <div className="mb-8 border-b-4 bg-white"></div>
                 </div>                <p className="text-2xl font-bold mb-8">
-                    Jaunt App Media stands as a premier demand side platform specializing in digital advertising. Utilizing advanced targeting technology and audience analysis, Jaunt App Media is committed to empowering 
-                    advertisers to procure traffic at optimal rates, driving sustained revenue growth.
+                Welcome to JauntApp Media, your trusted partner in IT services and solutions. With a commitment to innovation and excellence, we specialize in delivering cutting-edge technology services that drive business growth, streamline operations, and empower organizations to thrive in the digital age
                 </p>
                 <div onClick={handleNavigate} className="cursor-pointer absolute bottom-0 left-1/2 transform -translate-x-1/2 ">
                     <Lottie

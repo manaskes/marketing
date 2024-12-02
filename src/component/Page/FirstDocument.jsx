@@ -14,7 +14,7 @@ const FirstDocument = () => {
           <h2 className="text-6xl font-bold leading-snug tracking-normal antialiased ">Jaunt App <br/>Media</h2> {/* Header */}
           <div className="mb-4 border-b-4 bg-white"></div>
           <p className="text-lg font-bold leading-relaxed "> {/* Paragraph */}
-          WELCOME To Jaunt App  Media!
+          Technology Made Simple, Solutions Made Effective!
           </p>
           {/* Get started button */}
           <a href="#" className="inline-block flex items-center">

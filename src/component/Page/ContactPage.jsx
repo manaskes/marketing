@@ -22,14 +22,14 @@ const ContactPage = () => {
       </div>
       
       {/* Three-column row for contact information */}
-      <div className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
+      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
         {/* Message column */}
         <div>
           <div className="flex items-center justify-center mb-2">
             <AiOutlineMessage className="text-3xl mr-2" />
             <h2 className="text-3xl font-bold">Message</h2>
           </div>
-          <p className='ms-5'>123 Business Ave,<br/>Metropolis, IN 46077</p>
+          <p className='ms-5'>winner height Tower<br/>104 D, C Block, Pocket C, Sector 19, Noida, Uttar Pradesh 201301</p>
         </div>
 
         {/* Call Us column */}
@@ -38,7 +38,8 @@ const ContactPage = () => {
             <AiOutlinePhone className="text-3xl mr-2" />
             <h2 className="text-3xl font-bold">Call Us</h2>
           </div>
-          <p className='ms-5'>+1 555-1234-567</p>
+          <p className='ms-5'>7007442854</p>
+          <p className='ms-5'>6392851592</p>
         </div>
 
         {/* Mail column */}
@@ -47,7 +48,7 @@ const ContactPage = () => {
             <AiOutlineMail className="text-3xl mr-2" />
             <h2 className="text-3xl font-bold">Email</h2>
           </div>
-          <p className='ms-5'>example@gmail.com</p>
+          <p className=''>business@jauntappmedia.com</p>
         </div>
       </div>
     </div>
